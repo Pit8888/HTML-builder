@@ -25,6 +25,6 @@ rl.on('line', (data) => {
   }
 });
 rl.on('SIGINT', () => {
-  console.log('exit - то же работает)');
+  console.log('Пока!');
   process.exit(0);
 });
